@@ -2,7 +2,7 @@
 Simple Apple Automator script to run [Signal Desktop](https://github.com/signalapp/Signal-Desktop) (the secure chat app) with system proxy on Mac OS.
 
 # What is this for
-Unfortunately the desktop version of Signal on Mac OS still does not pickup the system proxy configuration properly.
+Unfortunately the desktop version of Signal on Mac OS still does not pickup the system proxy configuration properly. See related issue [here](https://github.com/signalapp/Signal-Desktop/issues/1632).
 
 So if you find yourself in the situation where you have to use a proxy to connect to the Signal service, like behind a company network or in China, that's when you need it.
 
