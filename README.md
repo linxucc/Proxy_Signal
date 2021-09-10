@@ -22,7 +22,11 @@ First script gets current system proxy address and port, save it as a result.
 Second script takes the address and port, set the proxy and launches the signal App.
 
 # Just for curiosity: Why Signal desktop App doesn't suport proxy?
-Accoring the random talks in several proxy related open issues, it seems the Signal App uses Chromium as its fundamental platform, this proxy issue is at the Chromium layer other than the actual with-in app layer, so the developers seem to have trobuble to deal with it without touching or modding Chromium. Apparantly most Signal develpers don't have this proxy problem, so it's not a pirority, I guess that's why it stays un-addressed till today. (I could be wrong it's just from my quick grasp I'm no expert here)
+Accoring the random talks in several proxy related open issues, it seems the Signal App uses Chromium as its fundamental platform, this proxy issue is at the Chromium layer other than the actual with-in app layer, so the developers seem to have trobuble to deal with it without touching or modding Chromium. 
+
+Apparantly most Signal develpers don't have this proxy problem, so it's not a pirority, I guess that's why it stays un-addressed till today. (I could be wrong it's just from my quick grasp I'm no expert here)
 
 # Cases I didn't cover but should be workable
-Now you get the whole idea, so if you are in a more complicated proxy configuation, like using PAC or your proxy requires authentication, you should tweak it yourself in the Automator app, I think it's quite self-explanatory. In the worst case senario, just drop the 1st script then hardcode proxy ip and port should do it anyway.
+Now you get the whole idea, so if you are in a more complicated proxy configuation, like using PAC or your proxy requires authentication, you should tweak it yourself in the Automator app, I think it's quite self-explanatory. 
+
+In the worst case senario, just drop the 1st script then hardcode proxy ip and port should do it anyway.
