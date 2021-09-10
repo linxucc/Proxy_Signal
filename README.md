@@ -49,6 +49,6 @@ In the worst case senario, just drop the 1st script and hardcode proxy ip and po
 
 
 # Just for curiosity: Why Signal desktop App doesn't suport proxy?
-Accoring to the random talks in several proxy related open issues, it seems the Signal App uses Chromium as its fundamental platform, this proxy issue is at the Chromium layer other than the actual with-in app layer, so the developers seem to have trobuble to deal with it without touching or modding Chromium. 
+According to the random talks in several proxy related open issues, it seems the Signal App uses Chromium as its fundamental platform, this proxy issue is at the Chromium layer other than the actual with-in app layer, so the developers seem to have trobuble to deal with it without touching or modding Chromium. 
 
 Apparantly most Signal develpers don't have this proxy problem, so it's not a pirority, I guess that's why it stays un-addressed till today. (I could be wrong it's just from my quick grasp I'm no expert here)
