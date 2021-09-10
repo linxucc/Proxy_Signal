@@ -25,7 +25,7 @@ _If it didn't workout, check your system proxy configs in System Preference->Net
 
 
 
-3. Drag and Drop your newly created App to Application folder, whenever you need proxy, you launch from there.
+3. Drag and Drop your newly created App to Application folder, whenever you need proxy, you launch from here.
 ![image](https://user-images.githubusercontent.com/24445006/132814662-1e970c31-7712-463f-b05d-f2e43a21f8e0.png)
 
 
