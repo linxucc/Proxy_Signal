@@ -7,7 +7,7 @@ Unfortunately the desktop version of Signal on Mac OS still does not pickup the 
 So if you find yourself in the situation where you have to use a proxy to connect to the Signal service, like behind a company network or in China, that's when you need it.
 
 # How to use
-1. Download the zip, extract it, open the package via Automator, test if it launches signal properly with proxy (it should connect).
+### 1. Download the zip, extract it, open the package via Automator, test if it launches signal properly with proxy (it should connect).
 
 | Open | Test |
 | ---- | ---- |
@@ -17,7 +17,7 @@ So if you find yourself in the situation where you have to use a proxy to connec
 _If it didn't workout, check your system proxy configs in System Preference->Network->Wifi/Ethernet->Advanced settings->Proxy, make sure proxy works, tweak or hardcode the proxy address if needed till it works._
  
  
-2. Save this script as a standalone Automator Application: **File -> Convert To -> Application**, **File -> Export**. Now you should have a dedicated "App" that launches Signal with proxy.
+### 2. Save this script as a standalone Automator Application: **File -> Convert To -> Application**, **File -> Export**. Now you should have a dedicated "App" that launches Signal with proxy.
 
 | Convert to | Choose Application | Export |
 | ---- | ---- | -----|
@@ -25,7 +25,7 @@ _If it didn't workout, check your system proxy configs in System Preference->Net
 
 
 
-3. Drag and Drop your newly created App to Application folder, whenever you need proxy, you launch from here.
+### 3. Drag and Drop your newly created App to Application folder, whenever you need proxy, you launch from here.
 ![image](https://user-images.githubusercontent.com/24445006/132814662-1e970c31-7712-463f-b05d-f2e43a21f8e0.png)
 
 
