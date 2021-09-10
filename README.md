@@ -39,6 +39,8 @@ First script gets current system proxy address and port, save it as a result.
 
 Second script takes the address and port, set the proxy and launches the signal App.
 
+You can do this in pure shell, but Automator wraps it into a nice App package, just like an real App.
+
 
 # Cases I didn't cover but should be workable
 Now you get the whole idea, so if you are in a more complicated proxy configuation, like using PAC or your proxy requires authentication, you should tweak it yourself in the Automator app, I think it's quite self-explanatory. 
